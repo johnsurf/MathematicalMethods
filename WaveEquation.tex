@@ -1,0 +1,16 @@
+\section{\underline{Helmholtz Theory of Waves}}
+
+The general theory of functions satisfying the equation 
+\be (\nabla^2 + k^2)\phi = 0 \label{Helmholtz}\ee
+has many points of analogy with Laplace's equation $\ds \nabla^2\phi = 0$. 
+Typical solutions of  Eq.(\ref{Helmholtz}) from which all others can be derived, is that which corresponds to a unit source, viz.
+\be \phi = {e^{-ikr}\over4\pi r} \ee
+
+If $\phi, \phi'$ are any two functions, which, together with their first and secod derivatives, are finite and single-valued throughout any finite region, we have
+\be \int\int\, \left( \phi{\partial\phi'\over\partial n} - \phi'{\partial\phi\over\partial n}\right) \, dS = \int\int\int \left( \phi'\nabla^2\phi - \phi\nabla^2\phi'\right) \, dx\, dy\, dz \ee
+If in addition, $\phi$ and $\phi'$ both satisfy Eq.(\ref{Helmholtz}), the right-hand member vanishes, and we have
+\be \int\int\, \phi{\partial\phi'\over\partial n} = \int\int\,  \phi'{\partial\phi\over\partial n} \ee
+From this we deduce the formula
+\be \phi_P = -{1\over4\pi}\int\int\, {e^{-ikr}\over r}{\partial\phi\over\partial n}\, dS + {1\over4\pi}\int\int \, \phi{\partial\over\partial n} \left( {e^{-ikr}\over r}\right)\, dS, \ee
+giving the value of $\phi$ at any point $P$ of a region in terms of the values of $\phi$ and $\ds \partial\phi/\partial n$ at the boundary.
+
